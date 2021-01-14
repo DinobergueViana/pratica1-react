@@ -5,11 +5,12 @@ const Card = (props) => {
   return (
     <div className="card">
       <div className="card-img">
-        <img src="https://static.quizur.com/i/b/592f2baa2f94b7.84769124592f2baa0a9d62.02871434.jpg" alt=""/>
+        {/* <img src="https://static.quizur.com/i/b/592f2baa2f94b7.84769124592f2baa0a9d62.02871434.jpg" alt=""/> */}
+        <img src={props.img} alt=""/>
       </div>
       <div className="info">
         <div className="valor-new">
-          <h3>${props.valor}</h3>
+          <h3>$ {props.valor}</h3>
           <Button/>
         </div>
         <div className="descricao">
