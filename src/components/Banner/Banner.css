@@ -1,6 +1,26 @@
-.banner img {
-  width: 100%;
-
-  padding: 50px 45px;
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url('https://s2.glbimg.com/Bpb3xTl2adNh1F_YKIcnM6DKmMw=/smart/e.glbimg.com/og/ed/f/original/2019/06/04/escada-03.jpg');
+  background-position: center;
+  background-size: cover;
   box-sizing: border-box;
+
+  height: 70vh;
+  margin: 45px 45px;
+}
+
+.arrow {
+  /* border: 1px solid red; */
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(141, 141, 141, 0.62);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 5px;
 }
