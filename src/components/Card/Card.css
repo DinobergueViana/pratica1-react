@@ -1,0 +1,39 @@
+.card-section {
+  padding: 0 45px;
+  margin-bottom: 50px;
+}
+
+.card {
+  width: 30vw;
+  height: fit-content;
+
+  background-color: #EEEEEE;
+}
+
+.card-img img {
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+
+.info {
+  padding: 10px;
+}
+
+.valor-new {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.valor-new h3 {
+  color: #888888;
+  line-height: 26,8px;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.descricao p {
+  text-align: justify;
+  
+}
